@@ -37,5 +37,9 @@ class ViewController: UIViewController {
         rollDice()
     }
     
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        rollDice()
+    }
+    
 }
 
